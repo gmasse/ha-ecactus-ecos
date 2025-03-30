@@ -1,0 +1,17 @@
+{
+  "domain": "ecactusecos",
+  "name": "eCactus ECOS",
+  "version": "0.1.1",
+  "codeowners": [
+    "@gmasse"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/gmasse/ha-ecactus-ecos",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/gmasse/ha-ecactus-ecos/issues",
+  "requirements": [
+    "ecactus-ecos-py==0.2.1"
+  ]
+}
