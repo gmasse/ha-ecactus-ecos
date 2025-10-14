@@ -13,6 +13,7 @@ CONF_DATACENTER = "datacenter"
 
 PLATFORMS = [Platform.SENSOR]
 
+logging.getLogger('ecactus').setLevel(logging.WARNING)
 _LOGGER = logging.getLogger(__name__)
 
 
